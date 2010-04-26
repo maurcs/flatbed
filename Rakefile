@@ -20,7 +20,7 @@ spec = Gem::Specification.new do |s|
 
   # Change these as appropriate
   s.name              = "flatbed"
-  s.version           = "0.0.1"
+  s.version           = "0.0.2"
   s.summary           = "A ruby library for video editing and assembly using ffmpeg"
   s.author            = "Marcus Rosentrater"
   s.email             = "marcus.rosentrater@gmail.com"
@@ -31,7 +31,7 @@ spec = Gem::Specification.new do |s|
   # s.rdoc_options      = %w(--main Readme.markdown)
 
   # Add any extra files to include in the gem
-  s.files             = %w(Rakefile README.markdown flatbed.rb) + Dir.glob("{lib}/**/*")
+  s.files             = %w(Rakefile README.markdown) + Dir.glob("{lib}/**/*")
   # s.executables       = FileList["bin/**"].map { |f| File.basename(f) }
   s.require_paths     = ["lib"]
 
